@@ -22,8 +22,6 @@ fetch('input.txt')
     .then(function (text) {
         let input = text.split("\n").map((x) => +x);
 
-        console.log(input);
-
         let sums = [];
 
         for (let i = 0; i < input.length - 2; i++) {
