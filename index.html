@@ -24,30 +24,58 @@
         .answer {
             text-shadow: 0 0 5px #ffff66;
         }
+
+        footer {
+            position: fixed;
+            right: 8px;
+            bottom: 8px;
+            width: 100%;
+            text-align: right;
+            font-size: 0.8rem;
+        }
+
+        h1 {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            margin: 0 0 50px;
+        }
+
+        a {
+            color: #cccccc;
+            text-shadow: 0 0 5px #ffff66;
+        }
+
+        .day {
+            margin: 0 0 8vh;
+        }
     </style>
     <h1>Advent of Code 2021</h1>
+    <h2 style="font-size: 0.8rem"><a href="https://github.com/h-robertson">h-robertson</a></h2>
     <div id="result">
-        <div id="day1">
-            <h2 class="day1">Day 1</h2>
+        <div class="day" id="day1">
+            <h3>Day 1</h3>
             <div id="1-p1">
-                <p>How many measurements are larger than the previous measurement?</p>
+                <p><em>Part 1: </em>How many measurements are larger than the previous measurement?</p>
             </div>
             <div id="1-p2">
-                <p>How many sums are larger than the previous sum?</p>
+                <p><em>Part 2: </em>How many sums are larger than the previous sum?</p>
             </div>
         </div>
-        <div id="day2">
-            <h2 class="day2">Day 2</h2>
+        <div class="day" id="day2">
+            <h3>Day 2</h3>
             <div id="2-p1">
-                <p>What do you get if you multiply your final horizontal position by your final depth?</p>
+                <p><em>Part 1: </em>What do you get if you multiply your final horizontal position by your final depth?</p>
             </div>
             <div id="2-p2">
-                <p>What do you get if you multiply your final horizontal position by your final depth?</p>
+                <p><em>Part 2: </em>What do you get if you multiply your final horizontal position by your final depth?</p>
             </div>
         </div>
     </div>
     <script src="day1/index.js"></script>
     <script src="day2/index.js"></script>
+    <footer><a target="_blank" href="https://adventofcode.com/">adventofcode.com</a></footer>
 </body>
 
 </html>
