@@ -1,6 +1,6 @@
 // Day 1 - Part 1
 
-fetch('input.txt')
+fetch('day1/input.txt')
     .then(response => response.text())
     .then(function (text) {
         let input = text.split("\n").map((x) => +x);
@@ -17,7 +17,7 @@ fetch('input.txt')
     });
 
 // Day 1 - Part 2
-fetch('input.txt')
+fetch('day1/input.txt')
     .then(response => response.text())
     .then(function (text) {
         let input = text.split("\n").map((x) => +x);
